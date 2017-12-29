@@ -1,0 +1,56 @@
+
+.wrapper {
+	position: relative;
+	width: 1080px;
+	margin: 0 auto;
+}
+.grense {
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	width: 1080px;
+	height: 785px;
+	margin: 0 auto;
+}
+
+.padding {
+	padding-top: 275px;
+}
+
+img {
+	position: absolute;
+	right: 0px;
+	opacity: 0.1;
+}
+
+.storreBokstaver {
+	font-size: 24px;
+}
+
+/*.flex {
+	display: flex;
+}*/
+
+.nummeret {
+	/*border: 2px solid black;*/
+	width: 250px;
+	/*flex: 1;*/
+	}
+
+.rotasjon {
+	transform: rotateZ(90deg);
+	margin-top: -60px;
+}
+
+.storreSiffer {
+	font-size: 2em;
+}
+
+.centar {
+	text-align: center;
+}	
+@media print
+{
+    * {-webkit-print-color-adjust:exact;}
+}
+
